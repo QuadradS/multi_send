@@ -1,0 +1,17 @@
+[package]
+name = "multi_send_backend"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4.9.0"
+dotenv = "0.15.0"
+ethers = "2.0.14"
+serde = "1.0.210"
+serde_json = "1.0.128"
+tokio = { version = "1.40.0", features = ["full"] }
+eyre = "0.6"
+
+
